@@ -16,7 +16,7 @@ st.write('''
      ***Take this quiz to find out!!!!***
      ''')
 
-st.image("Images/FINALDRINKS_transparent.png", width="stretch")
+st.image("WebDevLab01/Images/FINALDRINKS_transparent.png", width="stretch")
 
 # initial scores for all drinks, highest score & 2nd highest score
 coffeeS=0
@@ -50,28 +50,28 @@ perfectActivity = st.multiselect(
 st.write("You selected:", perfectActivity)
 
 if "Morning Workout" in perfectActivity:
-    st.image("Images/m_w.jpg", width=200)
+    st.image("WebDevLab01/Images/m_w.jpg", width=200)
 
 if "Café with a good book" in perfectActivity:
-    st.image("Images/book_cafe.jpg", width=200)
+    st.image("WebDevLab01/Images/book_cafe.jpg", width=200)
 
 if "Smores at a Campfire" in perfectActivity:
-    st.image("Images/campfire.jpg", width=200)
+    st.image("WebDevLab01/Images/campfire.jpg", width=200)
     
 if "Trying out a new restaurant" in perfectActivity:
-    st.image("Images/new_rest.jpg", width=200)
+    st.image("WebDevLab01/Images/new_rest.jpg", width=200)
 
 if "Crossing everything off a to-do list" in perfectActivity:
-    st.image("Images/todolist.jpg", width=200)
+    st.image("WebDevLab01/Images/todolist.jpg", width=200)
 
 if "Beach Day" in perfectActivity:
-    st.image("Images/beach_image.jpg", width=200)
+    st.image("WebDevLab01/Images/beach_image.jpg", width=200)
 
 if "Riding the scariest rides at Six Flags" in perfectActivity:
-    st.image("Images/sixflags.jpg", width=200)
+    st.image("WebDevLab01/Images/sixflags.jpg", width=200)
 
 if "Doomscrolling on socials as much as your heart desires" in perfectActivity:
-    st.image("Images/doomscroll.jpg", width=200)
+    st.image("WebDevLab01/Images/doomscroll.jpg", width=200)
 
 #Scores for multiselect
 if perfectActivity == "Morning Workout":
@@ -289,7 +289,7 @@ if idealWeather is not None :
     st.write("You selected:", idealWeather)
 # GIF for the resulting weather the user picks!!!
 if idealWeather == "Hot & Sunny☀":
-    st.image("Images/H&S.gif")
+    st.image("WebDevLab01/Images/H&S.gif")
     lemonadeS += 3
     bobaS += 3
     sodaS += 3
@@ -297,52 +297,52 @@ if idealWeather == "Hot & Sunny☀":
     teaS += 3
     
 if idealWeather == "Rainy🌧":
-    st.image("Images/Rainy.gif")
-    st.audio("Images/rainSound.mp3", end_time= 5, loop=False, autoplay=True)
+    st.image("WebDevLab01/Images/Rainy.gif")
+    st.audio("WebDevLab01/Images/rainSound.mp3", end_time= 5, loop=False, autoplay=True)
     teaS += 3
     hotcocoaS += 3
     coffeeS += 3
     bobaS += 3
     
 if idealWeather == "Cold❄":
-    st.image("Images/Cold.gif")
+    st.image("WebDevLab01/Images/Cold.gif")
     matchaS += 3
     teaS += 3
     hotcocoaS += 3
     coffeeS += 3
     
 if idealWeather == "Warm & Breezy🌤":
-    st.image("Images/W&B.gif")
-    st.audio("Images/wind.mp3", end_time= 5, loop=False, autoplay=True)
+    st.image("WebDevLab01/Images/W&B.gif")
+    st.audio("WebDevLab01/Images/wind.mp3", end_time= 5, loop=False, autoplay=True)
     smoothieS += 3
     teaS += 3
     lemonadeS += 3
     matchaS += 3
     
 if idealWeather == "Cloudy☁":
-    st.image("Images/Cloudy.gif")
+    st.image("WebDevLab01/Images/Cloudy.gif")
     coffeeS += 3
     teaS += 3
     hotcocoaS += 3
     matchaS += 3
     
 if idealWeather == "Stormy⛈":
-    st.image("Images/Stormy.gif")
-    st.audio("Images/StormySound.mp3", end_time= 5, loop=False, autoplay=True)
+    st.image("WebDevLab01/Images/Stormy.gif")
+    st.audio("WebDevLab01/Images/StormySound.mp3", end_time= 5, loop=False, autoplay=True)
     teaS += 3
     hotcocoaS += 3
     coffeeS += 3
     
 if idealWeather == "Cool/Fall Weather🍂":
-    st.image("Images/C&FW.gif")
+    st.image("WebDevLab01/Images/C&FW.gif")
     hotcocoaS += 3
     coffeeS += 3
     matchaS += 3
     teaS += 3
     
 if idealWeather == "Tropical/Hot🌴":
-    st.image("Images/T&H.gif")
-    st.audio("Images/hotBeachSound.mp3", end_time= 5, loop=False, autoplay=True)      
+    st.image("WebDevLab01/Images/T&H.gif")
+    st.audio("WebDevLab01/Images/hotBeachSound.mp3", end_time= 5, loop=False, autoplay=True)      
     smoothieS += 3
     lemonadeS += 3
     bobaS += 3
@@ -386,10 +386,10 @@ st.write(mysSButton)
 # /////////WHEN YOU PRESS ON THE RESULT BUTTON THE SECOND HIGHEST SCORE POPS UP   
 if mysSButton == True:
 # NEW
-    st.audio("Images/drumRollVictory.mp3", start_time=4, loop=False, autoplay=True)
+    st.audio("WebDevLab01/Images/drumRollVictory.mp3", start_time=4, loop=False, autoplay=True)
     if secondHScore == sodaS:
         st.balloons()
-        st.image("Images/sodavid.gif")
+        st.image("WebDevLab01/Images/sodavid.gif")
         st.subheader("YAY I GOT MY :rainbow[SODAAAAA]")
         st.subheader("You are:")
         st.write("- bubbly")
@@ -397,7 +397,7 @@ if mysSButton == True:
         st.write("- the life of the party") 
     elif secondHScore == matchaS:
         st.balloons()
-        st.image("Images/matchavid.gif")
+        st.image("WebDevLab01/Images/matchavid.gif")
         st.subheader("STAY CALM & DRINK :rainbow[MATCHA]")
         st.subheader("You are:")
         st.write("- health-conscious")
@@ -407,7 +407,7 @@ if mysSButton == True:
         st.write("- trendy")
     elif secondHScore == teaS:
         st.balloons()
-        st.image("Images/teavid.gif")
+        st.image("WebDevLab01/Images/teavid.gif")
         st.subheader("SPILL THE :rainbow[TEAAAAA]")
         st.subheader("You are:")
         st.write("- calm")
@@ -415,7 +415,7 @@ if mysSButton == True:
         st.write("- a good listener")
     elif secondHScore == lemonadeS:
         st.balloons()
-        st.image("Images/lemonadevid.gif")
+        st.image("WebDevLab01/Images/lemonadevid.gif")
         st.subheader("WHEN LIFE GIVES U LEMONS DRINK :rainbow[LEMONADEEEE]")
         st.subheader("You are:")
         st.write("- sunny")
@@ -423,7 +423,7 @@ if mysSButton == True:
         st.write("- the friend who makes everyone laugh")
     elif secondHScore == hotcocoaS:
         st.snow()
-        st.image("Images/hotcocoavid.gif")
+        st.image("WebDevLab01/Images/hotcocoavid.gif")
         st.subheader("SIP SLOWLY & STAY COZY WITH :rainbow[HOT COCOA]")
         st.subheader("You are:")
         st.write("- cozy")
@@ -431,7 +431,7 @@ if mysSButton == True:
         st.write("- a homebody at heart")
     elif secondHScore == bobaS:
         st.balloons()
-        st.image("Images/bobavid.gif")
+        st.image("WebDevLab01/Images/bobavid.gif")
         st.subheader(":rainbow[BOBA] 1ST EVERYTHING ELSE LATER")
         st.subheader("You are:")
         st.write("- trendy")
@@ -439,7 +439,7 @@ if mysSButton == True:
         st.write("- always up for something new")
     elif secondHScore == coffeeS:
         st.balloons()
-        st.image("Images/coffeevid.gif")
+        st.image("WebDevLab01/Images/coffeevid.gif")
         st.subheader("BUT 1ST.... :rainbow[COFFEEEEEEE]")
         st.subheader("You are:")
         st.write("- driven")
@@ -447,13 +447,13 @@ if mysSButton == True:
         st.write("- always on the go")
     elif secondHScore == smoothieS:
         st.balloons()
-        st.image("Images/smoothievid.gif")
+        st.image("WebDevLab01/Images/smoothievid.gif")
         st.subheader(":rainbow[SMOOTHIES] 4 LIFEEEE")
         st.subheader("You are:")
         st.write("- health-conscious")
         st.write("- balanced")
         st.write("- into self-care")
-#st.audio("Images/drumRollVictory.mp3", end_time=4, loop=True, autoplay=True)
+#st.audio("WebDevLab01/Images/drumRollVictory.mp3", end_time=4, loop=True, autoplay=True)
 
 
 
@@ -464,10 +464,10 @@ st.write(myHSButton)
 # /////////WHEN YOU PRESS ON THE RESULT BUTTON THE HIGHEST SCORE POPS UP
 if myHSButton == True:
 # NEW
-    st.audio("Images/2ndPlaceVictory.mp3", loop=False, autoplay=True)
+    st.audio("WebDevLab01/Images/2ndPlaceVictory.mp3", loop=False, autoplay=True)
     if highestScore == sodaS:
         st.balloons()
-        st.image("Images/sodavid.gif")
+        st.image("WebDevLab01/Images/sodavid.gif")
         st.subheader("YAY I GOT MY :rainbow[SODAAAAA]")
         st.subheader("You are:")
         st.write("- bubbly")
@@ -475,7 +475,7 @@ if myHSButton == True:
         st.write("- the life of the party") 
     elif highestScore == matchaS:
         st.balloons()
-        st.image("Images/matchavid.gif")
+        st.image("WebDevLab01/Images/matchavid.gif")
         st.subheader("STAY CALM & DRINK :rainbow[MATCHA]")
         st.subheader("You are:")
         st.write("- health-conscious")
@@ -485,7 +485,7 @@ if myHSButton == True:
         st.write("- trendy")
     elif highestScore == teaS:
         st.balloons()
-        st.image("Images/teavid.gif")
+        st.image("WebDevLab01/Images/teavid.gif")
         st.subheader("SPILL THE :rainbow[TEAAAAA]")
         st.subheader("You are:")
         st.write("- calm")
@@ -493,7 +493,7 @@ if myHSButton == True:
         st.write("- a good listener")
     elif highestScore == lemonadeS:
         st.balloons()
-        st.image("Images/lemonadevid.gif")
+        st.image("WebDevLab01/Images/lemonadevid.gif")
         st.subheader("WHEN LIFE GIVES U LEMONS DRINK :rainbow[LEMONADEEEE]")
         st.subheader("You are:")
         st.write("- sunny")
@@ -501,7 +501,7 @@ if myHSButton == True:
         st.write("- the friend who makes everyone laugh")
     elif highestScore == hotcocoaS:
         st.snow()
-        st.image("Images/hotcocoavid.gif")
+        st.image("WebDevLab01/Images/hotcocoavid.gif")
         st.subheader("SIP SLOWLY & STAY COZY WITH :rainbow[HOT COCOA]")
         st.subheader("You are:")
         st.write("- cozy")
@@ -509,7 +509,7 @@ if myHSButton == True:
         st.write("- a homebody at heart")
     elif highestScore == bobaS:
         st.balloons()
-        st.image("Images/bobavid.gif")
+        st.image("WebDevLab01/Images/bobavid.gif")
         st.subheader(":rainbow[BOBA] 1ST EVERYTHING ELSE LATER")
         st.subheader("You are:")
         st.write("- trendy")
@@ -517,7 +517,7 @@ if myHSButton == True:
         st.write("- always up for something new")
     elif highestScore == coffeeS:
         st.balloons()
-        st.image("Images/coffeevid.gif")
+        st.image("WebDevLab01/Images/coffeevid.gif")
         st.subheader("BUT 1ST.... :rainbow[COFFEEEEEEE]")
         st.subheader("You are:")
         st.write("- driven")
@@ -525,7 +525,7 @@ if myHSButton == True:
         st.write("- always on the go")
     elif highestScore == smoothieS:
         st.balloons()
-        st.image("Images/smoothievid.gif")
+        st.image("WebDevLab01/Images/smoothievid.gif")
         st.subheader(":rainbow[SMOOTHIES] 4 LIFEEEE")
         st.subheader("You are:")
         st.write("- health-conscious")

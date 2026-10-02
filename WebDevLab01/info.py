@@ -2,7 +2,7 @@
 #This File will contain the information to be displayed in your portfolio
 
 #CHANGE BELOW
-profile_picture = "Images/profile.jpeg"
+profile_picture = "WebDevLab01/Images/profile.jpeg"
 about_me = "Hi! My name is Haben Yemane and I am a 1st Year Computer Science Major. I hope you have fun learning more about me!!! ;)"
 
 
@@ -32,9 +32,9 @@ course_data = {
     }
 experience_data = {
     "Roman Summer Bridge Program": (["- Volunteered for 20+ hours supporting students with academic enrichment and program logistics",
-                                                                          "- Led academic prep sessions for all subjects to help prepare kids for their next grade level"],"Images/RSB.jpg"),
+                                                                          "- Led academic prep sessions for all subjects to help prepare kids for their next grade level"],"WebDevLab01/Images/RSB.jpg"),
     "Ahwat Tutoring Program":(["- Garnered 120+ hours of service through tutoring and community engagement",
-                                                           "- Mentored Eritrean youth through tutoring","- Aided in event planning and community initiatives"],"Images/ATP2.jpg")
+                                                           "- Mentored Eritrean youth through tutoring","- Aided in event planning and community initiatives"],"WebDevLab01/Images/ATP2.jpg")
 }
 
 projects_data = {
@@ -71,10 +71,10 @@ leadership_data = {
     "International Club Organization": (["Co-President:","- Progressed from member to VP of Entertainment to Co-President in recognition of leadership, dedication, and contributions to the club",
                                          "- Planned and coordinated cultural events and activities to promote awareness and appreciation of diverse backgrounds",
                                          "- Contributed to the success of the 9th annual International Festival, helping achieve a sold-out event through effective planning and collaboration",
-                                         "- Strengthened leadership skills by delegating responsibilities, coordinating team efforts, and guiding members in the execution of club initiatives"],"Images/Int.jpg"),
+                                         "- Strengthened leadership skills by delegating responsibilities, coordinating team efforts, and guiding members in the execution of club initiatives"],"WebDevLab01/Images/Int.jpg"),
     "Women in STEM Club Organization": (["Co-President (Promoted from VP):", "- Led club meetings and collaborated with members to organize STEM-related activities and events",
             "- Increased awareness and participation in STEM opportunities by encouraging girls to explore careers in STEM",
-                                        "- Learned effective team management, event planning, and leadership strategies through club initiatives"], "Images/WINSTEM.jpg")
+                                        "- Learned effective team management, event planning, and leadership strategies through club initiatives"], "WebDevLab01/Images/WINSTEM.jpg")
 }
 activity_data={
     "National Honor Society (NHS)": ["- Selected based on academic achievement, leadership, service, and character",
