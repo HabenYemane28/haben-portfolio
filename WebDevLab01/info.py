@@ -71,7 +71,7 @@ leadership_data = {
     "International Club Organization": (["Co-President:","- Progressed from member to VP of Entertainment to Co-President in recognition of leadership, dedication, and contributions to the club",
                                          "- Planned and coordinated cultural events and activities to promote awareness and appreciation of diverse backgrounds",
                                          "- Contributed to the success of the 9th annual International Festival, helping achieve a sold-out event through effective planning and collaboration",
-                                         "- Strengthened leadership skills by delegating responsibilities, coordinating team efforts, and guiding members in the execution of club initiatives"],"WebDevLab01/Images/Int.jpg"),
+                                         "- Strengthened leadership skills by delegating responsibilities, coordinating team efforts, and guiding members in the execution of club initiatives"],"WebDevLab01/Images/Int.JPG"),
     "Women in STEM Club Organization": (["Co-President (Promoted from VP):", "- Led club meetings and collaborated with members to organize STEM-related activities and events",
             "- Increased awareness and participation in STEM opportunities by encouraging girls to explore careers in STEM",
                                         "- Learned effective team management, event planning, and leadership strategies through club initiatives"], "WebDevLab01/Images/WINSTEM.jpg")
